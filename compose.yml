@@ -2,9 +2,9 @@
 # uffizzi.com 项目速度时快时慢，不稳定，推荐配合 Cloudflare CDN 使用。
 x-uffizzi:
   ingress:
-    service: v2ray-for-uffizzi.com
+    service: lxsb-for-uffizzi.com
     port: 80
 services:
-  v2ray-for-uffizzi.com:
+  lxsb-for-uffizzi.com:
     build: .
     restart: always
